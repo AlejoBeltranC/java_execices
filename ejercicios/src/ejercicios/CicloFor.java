@@ -7,6 +7,17 @@ package ejercicios;
  */
 public class CicloFor {
     
+    //Multiplicar entre si los primeros numeros impares del 1 al 10
+    public static double sumaImpar(){
+    double number = 1;
+        for (int i = 1; i <= 10; i ++){
+            if (i % 2 == 1){
+                number *= i;
+            }
+        }
+        return number ;
+    }
+    
     public static void main(String args[]){
     //Mostrar en pantalla los números de 2 en dos, a partir del 50, hasta 
     //llegar a 100.
@@ -25,5 +36,6 @@ public class CicloFor {
            System.out.println(i+" "+ y);
     }
     
+   
 }
 }
