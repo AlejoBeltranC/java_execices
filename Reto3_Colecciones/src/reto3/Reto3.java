@@ -68,34 +68,5 @@ public class Reto3 {
         return Math.min(valor1, valor2);
         
     }
-    public static void main(String[] args) {
   
-         ArrayList<Integer> laminas = new ArrayList<>();
-         laminas.add(18);laminas.add(21);laminas.add(16);
-         laminas.add(27);laminas.add(9);laminas.add(6);
-         laminas.add(0);laminas.add(13);laminas.add(8);
-         laminas.add(20);laminas.add(29);laminas.add(7);
-         laminas.add(26);laminas.add(3);laminas.add(31);
-         // 26, 3, 31    
-         ArrayList<Integer> laminas2 = new ArrayList<>();
-         laminas2.add(5);
-         laminas2.add(1);
-         laminas2.add(31);
-         laminas2.add(11); //5, 1, 31, 11, 18, 9, 15, 29, 4, 27, 6
-         laminas2.add(18);
-         laminas2.add(9);
-         laminas2.add(15);
-         laminas2.add(29);
-         laminas2.add(4);
-         laminas2.add(27);
-         laminas2.add(6);
-         
-         
-         int n = 1;
-        Reto3 reto = new Reto3();
-     
-        System.out.println(reto.noTengo(laminas, laminas2));
-        
-        
-    }
 }
